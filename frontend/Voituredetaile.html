@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoPremium - Renault Clio V Intens</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="bg-gray-900 text-white">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-xl font-bold">AlimouGroupe</div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="hover:text-gray-300">Accueil</a>
+                    <div class="relative group">
+                        <button class="hover:text-gray-300">Voitures ▼</button>
+                        <div class="absolute hidden group-hover:block w-48 bg-gray-900 shadow-lg">
+                            <a href="voitures-vente.html" class="block px-4 py-2 hover:bg-gray-800">Voitures à vendre</a>
+                            <a href="voitures-location.html" class="block px-4 py-2 hover:bg-gray-800">Voitures à louer</a>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <button class="hover:text-gray-300">Matériel ▼</button>
+                        <div class="absolute hidden group-hover:block w-48 bg-gray-900 shadow-lg">
+                            <a href="pieces-detachees.html" class="block px-4 py-2 hover:bg-gray-800">Pièces détachées</a>
+                            <a href="accessoires.html" class="block px-4 py-2 hover:bg-gray-800">Accessoires</a>
+                            <a href="outillage.html" class="block px-4 py-2 hover:bg-gray-800">Outillage</a>
+                        </div>
+                    </div>
+                    <a href="services.html" class="hover:text-gray-300">Services</a>
+                    <a href="contact.html" class="hover:text-gray-300">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+   
+    <div class="bg-gray-100 py-2">
+        <div class="container mx-auto px-6">
+            <nav class="text-sm">
+                <a href="index.html" class="text-gray-600">Accueil</a> &gt;
+                <a href="voitures-vente.html" class="text-gray-600">Voitures à vendre</a> &gt;
+                <span class="text-gray-900">Renault Clio V Intens</span>
+            </nav>
+        </div>
+    </div>
+
+   
+    <main class="container mx-auto px-6 py-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Galerie photos -->
+            <div class="space-y-4">
+                <div class="bg-gray-100 rounded-lg">
+                    <img src="/api/placeholder/800/600" alt="Renault Clio V" class="w-full h-auto rounded-lg"/>
+                </div>
+                <div class="grid grid-cols-4 gap-4">
+                    <img src="/api/placeholder/200/150" alt="Vue avant" class="w-full h-24 object-cover rounded cursor-pointer hover:opacity-75"/>
+                    <img src="/api/placeholder/200/150" alt="Vue arrière" class="w-full h-24 object-cover rounded cursor-pointer hover:opacity-75"/>
+                    <img src="/api/placeholder/200/150" alt="Intérieur" class="w-full h-24 object-cover rounded cursor-pointer hover:opacity-75"/>
+                    <img src="/api/placeholder/200/150" alt="Coffre" class="w-full h-24 object-cover rounded cursor-pointer hover:opacity-75"/>
+                </div>
+            </div>
+
+            
+            <div class="space-y-6">
+                <h1 class="text-3xl font-bold">Renault Clio V Intens</h1>
+                <div class="flex items-center space-x-4">
+                    <span class="text-3xl font-bold text-red-600">18 990 €</span>
+                    <span class="text-gray-500">(Prix TTC)</span>
+                </div>
+
+                <!-- Caractéristiques principales -->
+                <div class="grid grid-cols-2 gap-4 bg-gray-100 p-4 rounded-lg">
+                    <div>
+                        <p class="text-gray-600">Année</p>
+                        <p class="font-bold">2023</p>
+                    </div>
+                    <div>
+                        <p class="text-gray-600">Kilométrage</p>
+                        <p class="font-bold">15 000 km</p>
+                    </div>
+                    <div>
+                        <p class="text-gray-600">Carburant</p>
+                        <p class="font-bold">Essence</p>
+                    </div>
+                    <div>
+                        <p class="text-gray-600">Boîte de vitesse</p>
+                        <p class="font-bold">Automatique</p>
+                    </div>
+                </div>
+
+                <!-- Actions -->
+                <div class="space-y-4">
+                    <button class="w-full bg-red-600 text-white px-6 py-3 rounded-lg hover:bg-red-700">
+                        Réserver un essai
+                    </button>
+                    <button class="w-full bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-900">
+                        Demander plus d'informations
+                    </button>
+                </div>
+
+                <!-- Financement -->
+                <div class="border p-4 rounded-lg">
+                    <h2 class="text-xl font-bold mb-4">Options de financement</h2>
+                    <p class="text-gray-600 mb-2">À partir de 289 €/mois</p>
+                    <ul class="text-sm space-y-2">
+                        <li>• Apport : 3 798 €</li>
+                        <li>• Durée : 60 mois</li>
+                        <li>• TAEG fixe : 4,99%</li>
+                    </ul>
+                    <button class="mt-4 w-full border border-gray-800 text-gray-800 px-6 py-2 rounded hover:bg-gray-100">
+                        Calculer mon financement
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Détails techniques -->
+        <div class="mt-12">
+            <h2 class="text-2xl font-bold mb-6">Caractéristiques détaillées</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="font-bold mb-2">Motorisation</h3>
+                        <ul class="space-y-2">
+                            <li>• Moteur : 1.0 TCe 90ch</li>
+                            <li>• Puissance fiscale : 5 CV</li>
+                            <li>• Consommation mixte : 5.2 L/100km</li>
+                            <li>• Émissions CO2 : 119 g/km</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold mb-2">Équipements de série</h3>
+                        <ul class="space-y-2">
+                            <li>• Climatisation automatique</li>
+                            <li>• Navigation GPS</li>
+                            <li>• Caméra de recul</li>
+                            <li>• Régulateur de vitesse</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="font-bold mb-2">Sécurité</h3>
+                        <ul class="space-y-2">
+                            <li>• ABS avec aide au freinage d'urgence</li>
+                            <li>• ESP avec ASR</li>
+                            <li>• 6 airbags</li>
+                            <li>• Aide au démarrage en côte</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold mb-2">Options supplémentaires</h3>
+                        <ul class="space-y-2">
+                            <li>• Peinture métallisée</li>
+                            <li>• Pack City (radars avant/arrière)</li>
+                            <li>• Jantes alliage 17"</li>
+                            <li>• Système audio Bose®</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Véhicules similaires -->
+        <div class="mt-12">
+            <h2 class="text-2xl font-bold mb-6">Véhicules similaires</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Véhicule similaire 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="/api/placeholder/400/300" alt="Véhicule similaire" class="w-full h-48 object-cover"/>
+                    <div class="p-4">
+                        <h3 class="font-bold mb-2">Peugeot 208 Active</h3>
+                        <p class="text-gray-600 mb-2">2023 • 12 000 km • Essence</p>
+                        <p class="text-xl font-bold text-red-600">19 490 €</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-bold mb-4">AlimouGroupe</h3>
+                    <p>Votre spécialiste automobile depuis 2019</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Horaires</h3>
+                    <p>Lundi - Samedi : 8h - 20h</p>
+                    <p>Tous les jours</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Contact</h3>
+                    <p>Grand mbao extension</p>
+                    <p>Derriere clinique Absa</p>
+                    <p>Tél : 77 617 47 33</p>
+                    <p>Tél : 77 496 20 52</p>
+                    <P>Tél : 77 496 20 60</P>
+                </div>
+            </div>
+            <div class="mt-8 text-center">
+                <p>&copy; 2024 AlimouGroupe.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
